@@ -17,7 +17,6 @@ public class binarySearchTree {
 	public binarySearchTree insert(int data) {
 		if (root == null) {
 			root = new Node(data);
-			//return root;
 		}
 		insert(root,data);
 		return this;
